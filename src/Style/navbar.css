@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
 
-
+/* Navbar main*/
 .navbar-inner{
     display: flex;
     margin: auto;
     width:1440px;
     height: 105px;
-    background-color: rgb(252, 252, 252);
+    background-color: #ffffff;
     justify-content:space-between;
 
 
@@ -24,7 +24,7 @@ ul.navbar {
     margin: 0;
     padding: 0;
     gap: 60px;
-    background-color: rgb(255, 255, 255); /* Background color for the navbar */
+    background-color: rgba(255, 255, 255, 0); /* Background color for the navbar */
     align-items:center;
     justify-content:flex-end;
     padding-right: 200px;
@@ -58,9 +58,15 @@ color:white;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-size: 16px;
+border-style: none;
 
 }
 
 .nav-logo{
     padding-left: 200px;
 }
+
+ul.navbar li div:hover {
+    border-bottom: 2px solid #000; 
+    
+  }
