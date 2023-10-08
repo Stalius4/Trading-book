@@ -1,0 +1,123 @@
+
+.contact-outer{
+    
+    display: flex;
+    margin: auto;
+    width:1440px;
+
+    height: 632px;
+    background: #ffffff;
+    align-items:center;
+    
+}
+.form{
+    padding-left: 85px;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:center;
+    border-right: rgb(199, 197, 197) solid 1px;
+    height: 400px;
+}
+.name-email-flex{
+    display: flex;
+    gap: 120px;
+}
+
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    gap:35px;
+
+}
+
+.form-flex button {
+    display: flex;
+width: 162px;
+padding: 8px 8px;
+justify-content: center;
+align-items: center;
+background: #ad1414;
+color:white;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+border-style: none;
+
+}
+
+.form h1{
+    width: 359px;
+    color: #000;
+font-family: Poppins;
+font-size: 55px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: flex;
+text-align: left;
+}
+
+.right-side{
+    padding-left: 75px;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:center;
+}
+
+
+.form-input{
+    border: none; /* Remove all borders */
+  border-bottom: 1px solid #ccc; /* Add a grey bottom border */
+  outline: none; /* Remove the default outline when focused */
+  width: 200px;
+}
+.form-text{
+    text-align: left;
+    color: #8A8787;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+textarea{
+    border: none; /* Remove all borders */
+    border-bottom: 1px solid #ccc; /* Add a grey bottom border */
+    outline: none; /* Remove the default outline when focused */
+    width:  533px ;
+     height : auto !important;
+   
+}
+
+.message-flex{
+    display:flex;
+    flex-direction: column;
+    justify-content:left;
+}
+
+.right-side h1{
+    text-align: left;
+    color: #000;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.right-side p{
+    text-align: left;
+    color: #000;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 599px;
+    height: 150px;
+}
